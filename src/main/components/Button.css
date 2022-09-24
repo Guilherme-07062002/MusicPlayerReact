@@ -1,0 +1,87 @@
+/* .buttons{
+    margin-top: 15%;
+}
+
+button.start > img{
+    width: 64px;
+    height: 64px;
+}
+button{
+    height: 72px;
+    width: 72px;
+    border: solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 60px;
+    padding: 0;
+    margin: 0 15px; 
+}
+button.next{
+    margin-right: 0;
+}
+button.previous{
+    margin-left: 0;
+}
+@media(max-width: 426px) {
+    button.start{
+        margin-left: 5px ;
+        margin-right: 5px ;
+    }
+}
+@media(max-width: 376px) {
+    
+    button{
+        height: 60px;
+        width: 60px;
+        /* margin: 0; */
+        /* padding: 0;
+    }
+    button > img{
+        height: 54px;
+        width: 54px;
+    }
+    button.start > img{
+        width: 54px;
+        height: 54px;
+    } */
+/*} */
+button{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    border: solid white;
+    border-radius: 60px;
+}
+.button.previous{
+    color: rgba(255, 0, 0, 0);
+    margin-right: 10px;
+    background-image: url('../icons/previousButton.png');
+    background-size: cover;
+} 
+.button.previous:active{
+    border-color: rgb(77, 6, 77);
+}
+.button.play {
+    color: rgba(0, 128, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url('../icons/playButton.png');
+    background-size: cover;
+}
+.button.play:active{
+    border-color: rgb(77, 6, 77);
+}
+.button.next {
+    color: rgba(128, 0, 128, 0);
+    margin-left: 10px;
+    background-image: url('../icons/nextButton.png');
+    background-size: cover;
+}
+.button.next:active{
+    border-color: rgb(77, 6, 77);
+}
+.buttons{
+    display: inline-block;
+    
+}

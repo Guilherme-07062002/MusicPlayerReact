@@ -1,0 +1,106 @@
+.divPlayer {
+    height: 80vh;
+    width: 90vw;
+    background-color: rgba(27, 27, 27, 0.733);
+    overflow: hidden;
+    border-radius: 10px;
+    
+    padding-bottom: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: auto 5px auto 5px auto;
+}
+
+/* .album {
+    border: solid white;
+    height: 45vh;
+    width: 25vw;
+    /* margin-bottom: 20vh; */
+    /* background-color: rgba(255, 0, 0, 0.452);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; }*/
+ 
+h2 {
+    margin: 0;
+}
+
+
+.player {
+    position: relative;
+    
+    width: 25vw;
+    height: 10px;
+    background-color: white;
+}
+
+@media(max-width: 769px) {
+    /* .album {
+        height: 48vh;
+        width: 40vw;
+        
+    } */
+
+    .player {
+        width: 40vw;
+    }
+}
+
+@media(max-width: 426px) {
+    /* .album {
+        height: 48vh;
+        width: 65vw;
+        
+    } */
+
+    .divPlayer {
+        height: 85vh;
+        width: 90vw;
+    }
+
+    .player {
+        width: 65vw;
+    }
+}
+
+@media(max-width: 376px) {
+    /* .album {
+        height: 40vh;
+        width: 65vw;
+       
+    } */
+
+    .divPlayer {
+        height: 85vh;
+        width: 93vw;
+    }
+    .player {
+        width: 65vw;
+    }
+}
+
+@media(max-width: 321px) {
+    button#start{
+        margin-left: 2px ;
+        margin-right: 2px ;
+    }
+    /* .album {
+        
+        height: 40vh;
+        width: 70vw;
+        
+    } */
+
+    .divPlayer {
+        height: 80vh;
+        width: 90vw;
+    }
+    .player {
+        width: 70vw;
+    }
+}

@@ -1,0 +1,61 @@
+.album {
+    border: solid white;
+    height: 45vh;
+    width: 25vw;
+    /* margin-bottom: 20vh; */
+    background-color: rgba(255, 0, 0, 0.452);
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.album.img1 {
+    /* background-color: green */
+    background-image: url('../imgs/capa.png');
+    background-size: cover;
+    background-blend-mode: luminosity;
+    transition: 1s;
+}
+.album.img2 {
+    background-image: url('../imgs/capa2.jpg');
+    background-size: cover;
+    background-blend-mode: luminosity;
+    transition: 1s;
+} 
+@media(max-width: 1025px) {
+    .album {
+        height: 40vh;
+        width: 30vw;
+        /* margin-bottom: 40vh; */
+}
+}
+@media(max-width: 769px) {
+    .album {
+        height: 48vh;
+        width: 45vw;
+        /* margin-bottom: 40vh; */
+}
+}
+@media(max-width: 426px) {
+    .album {
+        height: 40vh;
+        width: 65vw;
+        /* margin-bottom: 5vh; */
+    }
+}
+@media(max-width: 376px) {
+    .album {
+        height: 35vh;
+        width: 65vw;
+        /* margin-bottom: 35vh; */
+    }
+}
+@media(max-width: 321px) {
+    .album {
+        /* margin-top: 10vh; */
+        height: 30vh;
+        width: 70vw;
+         /* margin-bottom: 3vh;  */
+    }
+}
